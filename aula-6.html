@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Tabelas</title>
+
+</head>
+
+<body>
+
+    <h1>Isercao de imagens e criacao de tabelas</h1>
+
+    <h2>Insercao de imagens</h2>
+    <img width="220px" height="150px"
+        src="https://www.tricks.com.br/blog/wp-content/uploads/2020/11/bmx-street-1536x1023.jpg" alt="BMX street">
+
+    <h3>Insercao de imagem linkada ao site</h3>
+    <a href="https://shop.odysseybmx.com/pages/odyssey/">
+        <img src="https://www.odysseybmx.com/dailyword/archivesV2/2016/01/odsy-2000x500-path_1024.jpg"
+            alt="site Odyssey"></a>
+
+    <h2>Criacao de tabelas</h2>
+
+    <table border="1">
+        <caption>Marcas de BMX</caption>    <!-- a tag caption e o titulo de nossa tabela-->
+        <thead>
+            <tr>
+                <th rowspan="4">Internacionais</th>
+                <th>Marca</th>
+                <th>Pais</th>
+                <th colspan="4">Produtos</th>
+                                            <!-- <th> Sao as tags de cabecalho da tabela-->
+                                            <!-- <tr> Sao as tags de linha-->
+        </thead>                            <!-- <td> Sao as tags de cada elemento na coluna-->
+
+        <tfoot>Praticando tabelas</tfoot>   <!-- as tags thead, tbody e tfoot servem para dividir a tabela em areas que nos
+                                            facilitaram a estilizacao pelo CSS, sendo thead o cabecalho, tbody o conteudo
+                                            da tabela e tfoot o rodape da tabela-->
+                                           
+        <tbody>
+            </tr>
+            <td>Odyssey</td>
+            <td>Estados Unidos</td>
+            <td>Quadros</td>
+            <td>Garfos</td>
+            <td>Coroas</td>
+            <td>Guidoes</td>
+                                            <!-- Para ficar claro, inserimos tags th para o cabecalho, apos, abrimos a primeira 
+                                            linha e nela incluimos as colunas com os textos-->
+            </tr>
+            <tr>
+                <td>Colony</td>             <!-- o atributo rowspan mesclam linhas-->
+                <td>Australia</td>          <!-- o atributo colspan mesclam colunas-->
+                <td>Quadros</td>
+                <td>Aros</td>
+                <td>Mesa</td>
+                <td>Raios</td>
+            </tr>
+            <tr>
+                <td>DRB</td>
+                <td>Brasil</td>
+                <td>Manoplas</td>
+                <td>Cubos</td>
+                <td>Pedivelas</td>
+                <td>Coroas</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+</body>
+
+</html>
+

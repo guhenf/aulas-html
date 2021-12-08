@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancoragem e Tag div</title>
+</head>
+
+<body>
+
+    <h1>Ancoragem e tag div</h1>
+    <p>Exemplificando o uso</p>
+
+    <h2>Ancoragem</h2>
+    <!--a tag <a> define uma url clicavel, pode ser o proprio link 
+                           ou texto ancorado como no exemplo a seguir com listagem-->
+    <!--o atributo href="x" insere a url externa e o target="_blank" 
+                            direciona o usuario a uma nova aba inves de atualizar a mesma-->
+    <h3>Top 3 canais no Youtube</h3>
+    <ol>
+
+        <li><a href="https://www.youtube.com/channel/UCgfbn0ry4gFcWRWfAP0fNtQ" target="_blank">Portugaindo</a></li>
+        <li><a href="https://www.youtube.com/user/MrNandomoura101" target="_blank">Nando Moura</a></li>
+        <li><a href="https://www.youtube.com/c/LucasMontano" target="_blank">Lucas Montano</a></li>
+
+    </ol>
+
+    <h2>Tag div</h2>
+
+    <div>
+        <!--a tag div cria divisoes no documento, mas nos certificamos de ter usados as outras 
+              tags semanticas antes pois a div nao possui uma especificidade no corpo do site, tambem
+              a usamos quando queremos definir estilos CSS unicos em um bloco-->
+
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#sobre nos">Sobre nos</a> </li>
+            <li><a href="#fale conosco">Fale conosco</a> </li>
+        </ul>
+
+        <h3 id="sobre nos">Sobre nos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur, placeat at magni dolorem
+            laudantium animi perferendis fugiat nostrum doloremque aspernatur vero. Commodi tempora placeat iure
+            accusantium laboriosam aut quod!</p>
+        <h3 id="fale conosco">Fale conosco</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita qui vitae unde adipisci voluptatibus! Non
+            ipsum, mollitia nam reprehenderit officiis modi ipsa corrupti aut nihil. Hic quasi porro sunt quisquam.</p>
+                                                         <!--neste caso, a tag <a> cria uma navegacao pelo proprio site. 
+                                                         Utilizando os atributos href e id em conjunto, criamos linkagens
+                                                         pelo proprio corpo do site e a tag div fornecendo um bloco de
+                                                         navegacao por ele, no html a tag <nav> tem esta funcao semantica-->
+    </div>
+
+</body>
+
+</html>
